@@ -1,9 +1,6 @@
 ﻿using OpenMeteoApi.Models;
 using OpenMeteoApi.Models.Geocoding;
-using System;
-using System.Text.Json;
 using System.Text.Json.Serialization;
-using System.Text.Json.Serialization.Metadata;
 
 namespace OpenMeteoApi.Helpers;
 
@@ -29,6 +26,7 @@ namespace OpenMeteoApi.Helpers;
 [JsonSerializable(typeof(MinutelyForecastItem))]
 [JsonSerializable(typeof(MinutelyForecastUnits))]
 [JsonSerializable(typeof(WeatherData))]
+[JsonSerializable(typeof(Error))]
 internal partial class SourceGenerationContext : JsonSerializerContext
 {
 }

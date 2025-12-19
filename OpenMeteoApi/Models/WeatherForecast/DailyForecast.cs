@@ -18,6 +18,9 @@ public class DailyForecast
     [JsonPropertyName("temperature_2m_min")]
     public float?[]? Temperature2mMin { get; set; }
 
+    [JsonPropertyName("temperature_2m_mean")]
+    public float?[]? Temperature2mMean { get; set; }
+
     [JsonPropertyName("apparent_temperature_max")]
     public float?[]? ApparentTemperatureMax { get; set; }
 
