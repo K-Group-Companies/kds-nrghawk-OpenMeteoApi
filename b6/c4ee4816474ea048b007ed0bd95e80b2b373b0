@@ -1,0 +1,19 @@
+AGENTS.md
+  s_8c3f58d5253726::t_c738e94a42b09e 22-26
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "b6c4ee4816474ea048b007ed0bd95e80b2b373b0",
+  "prompts": {},
+  "sessions": {
+    "s_8c3f58d5253726": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "76c9d753-97a4-4d52-88be-edc095f927c5",
+        "model": "claude-sonnet-5-5"
+      },
+      "human_author": "Cameron Klenk <cameronk@kgroupcompanies.com>"
+    }
+  }
+}
