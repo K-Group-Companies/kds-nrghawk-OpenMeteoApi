@@ -19,10 +19,11 @@ A C# NuGet library (`OpenMeteoApi`) providing a typed client for the [Open-Meteo
 ## Coding Conventions
 
 - **Follow the existing file’s indentation/style**
-- **Commit message format:**
-  - Line 1: Single-line summary, 250 characters max
-  - Line 2: Blank
-  - Line 3+: Shortened bullet-point sentences that break apart the full summary
+- **Commit message format:** Conventional Commits (`feat:`, `fix:`, `docs:`, `refactor:`, `test:`, `chore:`, `build:`, `ci:`) following the 50/72 rule:
+  - Line 1: subject, target 50 characters, 72 hard ceiling — GitHub truncates the title past 70–72
+  - Line 2: blank (required)
+  - Line 3+: short bullet points breaking down the change, hard-wrapped at 72 characters
+  - A squash merge appends ` (#123)` to the subject — keep a PR title that will be squashed at roughly 65 characters or less
 
 ## Build & Test Commands
 
